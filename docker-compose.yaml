@@ -1,0 +1,10 @@
+services:
+  mysql:
+    image: mysql
+    ports:
+      - "3308:3306"
+    environment:
+      MYSQL_USER: springuser
+      MYSQL_PASSWORD: ThePassword
+      MYSQL_DATABASE: db_example
+      MYSQL_ROOT_PASSWORD: root/etc/mysql/conf.d:ro"

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: agregador-investimentos
+
+  datasource:
+    url: jdbc:mysql://localhost:3308/db_example
+    username: springuser
+    password: ThePassword
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8081
